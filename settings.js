@@ -77,7 +77,7 @@ AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
 HEART_REACT: process.env.HEART_REACT || "false",
@@ -101,7 +101,7 @@ AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
 // make it true for fake recoding 
 
-FAKE_TYPING: process.env.FAKE_TYPING || "false",
+FAKE_TYPING: process.env.FAKE_TYPING || "true",
 // make it true for fake typing
 
 READ_CMD: process.env.READ_CMD || "false",
